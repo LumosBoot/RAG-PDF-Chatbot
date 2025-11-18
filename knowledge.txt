@@ -1,0 +1,9 @@
+What is RAG?
+RAG stands for Retrieval-Augmented Generation.
+It is a technique for enhancing the accuracy and reliability of large language models (LLMs) with facts fetched from external sources.
+In simple terms, RAG gives LLMs "open-book" access to information, rather than forcing them to rely on "closed-book" memorized knowledge.
+
+How does RAG work?
+There are two main phases:
+1. Indexing: A knowledge base (like a set of documents) is loaded, split into chunks, converted into vectors (embeddings), and stored in a vector database.
+2. Retrieval and Generation: When a user asks a query, the system first retrieves relevant chunks from the database. Then, these chunks are passed to the LLM, along with the user's query, to generate a well-founded answer.
